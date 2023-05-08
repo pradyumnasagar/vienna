@@ -1,4 +1,3 @@
-
 /* Last changed Time-stamp: <2005-09-22 10:10:55 ivo> */
 /*                
 		  Ineractive Access to folding Routines
@@ -183,9 +182,7 @@ int main(int argc, char *argv[])
       min_en = circfold(string, structure);
     else
       min_en = fold(string, structure);
-    //printf("%s\n%s", string, structure);AO
-	printf("%s", structure);//AO
-	
+    printf("%s\n%s", string, structure);
     if (istty)
       printf("\n minimum free energy = %6.2f kcal/mol\n", min_en);
     else
